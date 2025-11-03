@@ -1,2 +1,2 @@
-# Tourist_IntroComp.repo
+# Bongosia_CagayanValleyRegion2_Final_Project.repo
 Final activity Tourist
