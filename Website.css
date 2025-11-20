@@ -231,4 +231,50 @@ body {
   object-position: center;
   border-radius: .4em;
 }
+.FOOTER{
+    background-image: url(images/FOOTB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 25px;
+}
 
+.FOOTER::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.FOOTER > * {
+    position: relative;
+    z-index: 1;    
+}
+
+.FOOT-LOGO{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.FOOT-LOGO img{
+  border-radius: 50%;
+}
+
+.CONTACTS{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.CONTACTS li{
+    list-style: none;
+    display: inline;
+}
+
+.IG{
+    position: relative;
+    bottom: 4px;
+}
