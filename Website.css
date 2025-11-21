@@ -238,6 +238,7 @@ body {
     color: white;
     position: relative;
     padding: 25px;
+    z-index: 100;
 }
 
 .FOOTER::before{

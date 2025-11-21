@@ -13,9 +13,10 @@
 
 .activity-card {
   width: 100%;
-  max-width: 400px;
+  max-width: 900px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 0.75rem;

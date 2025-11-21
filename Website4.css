@@ -1,0 +1,139 @@
+.SECTION1{
+    background-image: url(Medias/Pinacanaunan\ River.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
+
+.SECTION1-TITLE h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.SECTION1-PARAGRAPH{
+
+    text-align: justify;
+    align-content: center;
+}
+
+
+.P1, .P2{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+    max-width: 100%;
+
+}
+
+
+
+.background-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding: 240px;
+}
+
+
+.SECTION2{
+    background-image: url(Medias/baac.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+.SECTION2-CONTENT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-position: inside;
+    text-align: justify;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
+
+.SECTION2-IMG img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.SECTION2-LIST h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.SECTION2-LIST li{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+.SECTION3{
+    background-image: url(Medias/hats.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+.SECTION3-CONTENT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-position: inside;
+    text-align: justify;
+
+    position: relative;
+    top: 50px;
+
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
+
+.SECTION3-IMG img{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.SECTION3-LIST h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.SECTION3-LIST li{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}

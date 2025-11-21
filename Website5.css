@@ -1,0 +1,232 @@
+.SECTION-1{
+    background-image: url(Medias/Palaui_is.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.SECTION1-TITLE h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.P1, .P2{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+
+}
+
+
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding: 200px;
+}
+
+
+.TABLE h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
+
+.TABLE h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
+
+.TABLE table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.TABLE th, .TABLE td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+.TABLE th {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.TABLE tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.SECTION-2{
+    background-image: url(Medias/2ndimg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.background-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:white;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.SECTION2-CONTENT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-position: inside;
+    text-align: justify;
+    padding: 200px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+.SECTION2-LIST{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+.SECTION2-LIST ul{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.travel-tips em{
+    font-style: normal;
+    font-weight: bold;
+    color: #ffd400; 
+}
+
+
+
+
+
+
+
+
+
+
+.SECTION4{
+    background-image: url(Medias/BASS.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.background-overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    padding: 200px;
+}
+
+
+.CONTACT-FORM {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    margin: 50px auto;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+
+    position: relative;
+    bottom: 200px;
+}
+
+.CONTACT-FORM h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffd400; /* Yellow accent */
+}
+
+.CONTACT-FORM form {
+    display: flex;
+    flex-direction: column;
+}
+
+.CONTACT-FORM label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.CONTACT-FORM input,
+.CONTACT-FORM textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.CONTACT-FORM input:focus,
+.CONTACT-FORM textarea:focus {
+    box-shadow: 0 0 8px #ffd400;
+}
+
+.CONTACT-FORM button {
+    background-color: #ffd400;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.CONTACT-FORM button:hover {
+    background-color: #ffea00;
+    transform: scale(1.05);
+}
